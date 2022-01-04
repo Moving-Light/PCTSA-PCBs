@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="0" fill="1" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="0" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Upverter Parts Library
+
+Created by Upverter.com</description>
+<packages>
+<package name="WEIDMUELLER_1825970000_0">
+<description>Terminal_03_1x03_Single</description>
+<wire x1="-6" y1="-1.05" x2="-6" y2="-3.55" width="0.2" layer="21" curve="87.205665"/>
+<wire x1="4" y1="-1.05" x2="4" y2="-3.55" width="0.2" layer="21" curve="87.205665"/>
+<wire x1="6" y1="-3.55" x2="6" y2="-1.05" width="0.2" layer="21" curve="87.205665"/>
+<wire x1="4.636" y1="1.577" x2="5.365" y2="1.576" width="0.2" layer="21" curve="74.821886"/>
+<wire x1="-0.364" y1="1.577" x2="0.365" y2="1.576" width="0.2" layer="21" curve="74.821886"/>
+<wire x1="1" y1="-3.55" x2="1" y2="-1.05" width="0.2" layer="21" curve="87.205665"/>
+<wire x1="-1" y1="-1.05" x2="-1" y2="-3.55" width="0.2" layer="21" curve="87.205665"/>
+<wire x1="-5.364" y1="1.577" x2="-4.635" y2="1.576" width="0.2" layer="21" curve="74.821886"/>
+<wire x1="-4" y1="-3.55" x2="-4" y2="-1.05" width="0.2" layer="21" curve="87.205665"/>
+<wire x1="-7.1" y1="-4.25" x2="-7.1" y2="4.25" width="0.15" layer="21"/>
+<wire x1="-7.1" y1="-3.45" x2="-6.088" y2="-3.45" width="0.15" layer="21"/>
+<wire x1="-7.1" y1="-3.3" x2="-6.199" y2="-3.3" width="0.15" layer="21"/>
+<wire x1="-7.1" y1="-2.231" x2="-6.499" y2="-2.231" width="0.15" layer="21"/>
+<wire x1="-7.1" y1="-3.7" x2="-6.4" y2="-3.7" width="0.15" layer="21"/>
+<wire x1="-6.4" y1="-0.85" x2="-6" y2="-0.85" width="0.15" layer="21"/>
+<wire x1="-6" y1="-1.05" x2="-6" y2="-0.85" width="0.15" layer="21"/>
+<wire x1="-6" y1="-3.75" x2="-6" y2="-3.55" width="0.15" layer="21"/>
+<wire x1="-5.299" y1="-0.22" x2="-5.299" y2="0.58" width="0.15" layer="21"/>
+<wire x1="-5.589" y1="-0.22" x2="-5.589" y2="0.984" width="0.15" layer="21"/>
+<wire x1="-6.4" y1="-4.25" x2="-6.4" y2="3.5" width="0.15" layer="21"/>
+<wire x1="-7.1" y1="3.5" x2="-5.5" y2="3.5" width="0.15" layer="21"/>
+<wire x1="-7.1" y1="4.25" x2="7.1" y2="4.25" width="0.15" layer="21"/>
+<wire x1="-7.1" y1="-4.25" x2="7.1" y2="-4.25" width="0.15" layer="21"/>
+<wire x1="6.4" y1="-4.25" x2="6.4" y2="3.5" width="0.15" layer="21"/>
+<wire x1="3.6" y1="-4.25" x2="3.6" y2="3.5" width="0.15" layer="21"/>
+<wire x1="7.1" y1="-4.25" x2="7.1" y2="4.25" width="0.15" layer="21"/>
+<wire x1="5.301" y1="-0.22" x2="5.301" y2="0.581" width="0.15" layer="21"/>
+<wire x1="5.581" y1="-0.22" x2="5.581" y2="0.951" width="0.15" layer="21"/>
+<wire x1="4.411" y1="-0.22" x2="5.581" y2="-0.22" width="0.15" layer="21"/>
+<wire x1="4.411" y1="-0.22" x2="4.411" y2="0.984" width="0.15" layer="21"/>
+<wire x1="3.66" y1="-0.8" x2="6.34" y2="-0.8" width="0.15" layer="21"/>
+<wire x1="4.701" y1="-0.22" x2="4.701" y2="0.58" width="0.15" layer="21"/>
+<wire x1="6.088" y1="-3.45" x2="7.1" y2="-3.45" width="0.15" layer="21"/>
+<wire x1="6" y1="-3.75" x2="6" y2="-3.55" width="0.15" layer="21"/>
+<wire x1="4" y1="-3.75" x2="4" y2="-3.55" width="0.15" layer="21"/>
+<wire x1="1.088" y1="-3.45" x2="3.912" y2="-3.45" width="0.15" layer="21"/>
+<wire x1="6.182" y1="-3.326" x2="6.199" y2="-3.3" width="0.15" layer="21"/>
+<wire x1="6.146" y1="-3.377" x2="6.182" y2="-3.326" width="0.15" layer="21"/>
+<wire x1="6.108" y1="-3.426" x2="6.146" y2="-3.377" width="0.15" layer="21"/>
+<wire x1="6.088" y1="-3.45" x2="6.108" y2="-3.426" width="0.15" layer="21"/>
+<wire x1="6.199" y1="-3.3" x2="7.1" y2="-3.3" width="0.15" layer="21"/>
+<wire x1="1.199" y1="-3.3" x2="3.801" y2="-3.3" width="0.15" layer="21"/>
+<wire x1="1.499" y1="-2.231" x2="3.501" y2="-2.231" width="0.15" layer="21"/>
+<wire x1="4" y1="-1.05" x2="4" y2="-0.85" width="0.15" layer="21"/>
+<wire x1="3.6" y1="-0.85" x2="4" y2="-0.85" width="0.15" layer="21"/>
+<wire x1="6.499" y1="-2.231" x2="7.1" y2="-2.231" width="0.15" layer="21"/>
+<wire x1="6" y1="-0.85" x2="6.4" y2="-0.85" width="0.15" layer="21"/>
+<wire x1="6" y1="-1.05" x2="6" y2="-0.85" width="0.15" layer="21"/>
+<wire x1="6.4" y1="-3.7" x2="7.1" y2="-3.7" width="0.15" layer="21"/>
+<wire x1="1.4" y1="-3.7" x2="3.6" y2="-3.7" width="0.15" layer="21"/>
+<wire x1="-3.6" y1="-3.7" x2="-1.4" y2="-3.7" width="0.15" layer="21"/>
+<wire x1="1" y1="-1.05" x2="1" y2="-0.85" width="0.15" layer="21"/>
+<wire x1="1" y1="-0.85" x2="1.4" y2="-0.85" width="0.15" layer="21"/>
+<wire x1="-1.4" y1="-0.85" x2="-1" y2="-0.85" width="0.15" layer="21"/>
+<wire x1="-1" y1="-1.05" x2="-1" y2="-0.85" width="0.15" layer="21"/>
+<wire x1="-3.501" y1="-2.231" x2="-1.499" y2="-2.231" width="0.15" layer="21"/>
+<wire x1="-3.801" y1="-3.3" x2="-1.199" y2="-3.3" width="0.15" layer="21"/>
+<wire x1="1.088" y1="-3.45" x2="1.108" y2="-3.426" width="0.15" layer="21"/>
+<wire x1="1.108" y1="-3.426" x2="1.146" y2="-3.377" width="0.15" layer="21"/>
+<wire x1="1.146" y1="-3.377" x2="1.182" y2="-3.326" width="0.15" layer="21"/>
+<wire x1="1.182" y1="-3.326" x2="1.199" y2="-3.3" width="0.15" layer="21"/>
+<wire x1="-3.912" y1="-3.45" x2="-1.088" y2="-3.45" width="0.15" layer="21"/>
+<wire x1="-1" y1="-3.75" x2="-1" y2="-3.55" width="0.15" layer="21"/>
+<wire x1="1" y1="-3.75" x2="1" y2="-3.55" width="0.15" layer="21"/>
+<wire x1="-0.299" y1="-0.22" x2="-0.299" y2="0.58" width="0.15" layer="21"/>
+<wire x1="-1.34" y1="-0.8" x2="1.34" y2="-0.8" width="0.15" layer="21"/>
+<wire x1="-0.589" y1="-0.22" x2="-0.589" y2="0.984" width="0.15" layer="21"/>
+<wire x1="-0.589" y1="-0.22" x2="0.581" y2="-0.22" width="0.15" layer="21"/>
+<wire x1="0.581" y1="-0.22" x2="0.581" y2="0.951" width="0.15" layer="21"/>
+<wire x1="0.301" y1="-0.22" x2="0.301" y2="0.581" width="0.15" layer="21"/>
+<wire x1="-1.4" y1="-4.25" x2="-1.4" y2="3.5" width="0.15" layer="21"/>
+<wire x1="1.4" y1="-4.25" x2="1.4" y2="3.5" width="0.15" layer="21"/>
+<wire x1="-4" y1="-1.05" x2="-4" y2="-0.85" width="0.15" layer="21"/>
+<wire x1="-4" y1="-0.85" x2="-3.6" y2="-0.85" width="0.15" layer="21"/>
+<wire x1="-3.912" y1="-3.45" x2="-3.892" y2="-3.426" width="0.15" layer="21"/>
+<wire x1="-3.892" y1="-3.426" x2="-3.854" y2="-3.377" width="0.15" layer="21"/>
+<wire x1="-3.854" y1="-3.377" x2="-3.818" y2="-3.326" width="0.15" layer="21"/>
+<wire x1="-3.818" y1="-3.326" x2="-3.801" y2="-3.3" width="0.15" layer="21"/>
+<wire x1="-4" y1="-3.75" x2="-4" y2="-3.55" width="0.15" layer="21"/>
+<wire x1="-6.34" y1="-0.8" x2="-3.66" y2="-0.8" width="0.15" layer="21"/>
+<wire x1="-5.589" y1="-0.22" x2="-4.419" y2="-0.22" width="0.15" layer="21"/>
+<wire x1="-4.419" y1="-0.22" x2="-4.419" y2="0.951" width="0.15" layer="21"/>
+<wire x1="-4.699" y1="-0.22" x2="-4.699" y2="0.581" width="0.15" layer="21"/>
+<wire x1="-3.6" y1="-4.25" x2="-3.6" y2="3.5" width="0.15" layer="21"/>
+<wire x1="5.5" y1="3.5" x2="7.1" y2="3.5" width="0.15" layer="21"/>
+<wire x1="0.5" y1="3.5" x2="4.5" y2="3.5" width="0.15" layer="21"/>
+<wire x1="-4.5" y1="3.5" x2="-0.5" y2="3.5" width="0.15" layer="21"/>
+<wire x1="-7.1" y1="-4.25" x2="-7.1" y2="4.25" width="0.1" layer="39"/>
+<wire x1="-7.1" y1="4.25" x2="7.1" y2="4.25" width="0.1" layer="39"/>
+<wire x1="7.1" y1="4.25" x2="7.1" y2="-4.25" width="0.1" layer="39"/>
+<wire x1="7.1" y1="-4.25" x2="-7.1" y2="-4.25" width="0.1" layer="39"/>
+<text x="-10.462" y="4.25" size="1" layer="25">&gt;NAME</text>
+<pad name="A3" x="5" y="-2.88" drill="1.1" diameter="1.7"/>
+<pad name="A2" x="0" y="-2.88" drill="1.1" diameter="1.7"/>
+<pad name="A1" x="-5" y="-2.88" drill="1.1" diameter="1.7"/>
+<pad name="A3-2" x="5" y="2.58" drill="1.1" diameter="1.7"/>
+<pad name="A2-2" x="0" y="2.58" drill="1.1" diameter="1.7"/>
+<pad name="A1-2" x="-5" y="2.58" drill="1.1" diameter="1.7"/>
+</package>
+</packages>
+<symbols>
+<symbol name="WEIDMUELLER_1825970000_0_0">
+<description>Terminal_03_1x03_Single</description>
+<wire x1="0" y1="-6.35" x2="0" y2="-3.81" width="0.508" layer="94"/>
+<wire x1="0" y1="-3.81" x2="5.08" y2="-3.81" width="0.508" layer="94"/>
+<wire x1="5.08" y1="-3.81" x2="5.08" y2="-6.35" width="0.508" layer="94"/>
+<wire x1="5.08" y1="-6.35" x2="0" y2="-6.35" width="0.508" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="3.048" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="3.02" y1="-5.08" x2="3.02" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.15" layer="94"/>
+<text x="0" y="-1.27" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<text x="0" y="-11.43" size="2.54" layer="95" align="top-left">1825970000</text>
+<pin name="A1" x="10.16" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="WEIDMUELLER_1825970000_0_1">
+<description>Terminal_03_1x03_Single</description>
+<wire x1="0" y1="-6.35" x2="0" y2="-3.81" width="0.508" layer="94"/>
+<wire x1="0" y1="-3.81" x2="5.08" y2="-3.81" width="0.508" layer="94"/>
+<wire x1="5.08" y1="-3.81" x2="5.08" y2="-6.35" width="0.508" layer="94"/>
+<wire x1="5.08" y1="-6.35" x2="0" y2="-6.35" width="0.508" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="3.048" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="3.02" y1="-5.08" x2="3.02" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.15" layer="94"/>
+<text x="0" y="-1.27" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<text x="0" y="-11.43" size="2.54" layer="95" align="top-left">1825970000</text>
+<pin name="A2" x="10.16" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="WEIDMUELLER_1825970000_0_2">
+<description>Terminal_03_1x03_Single</description>
+<wire x1="0" y1="-6.35" x2="0" y2="-3.81" width="0.508" layer="94"/>
+<wire x1="0" y1="-3.81" x2="5.08" y2="-3.81" width="0.508" layer="94"/>
+<wire x1="5.08" y1="-3.81" x2="5.08" y2="-6.35" width="0.508" layer="94"/>
+<wire x1="5.08" y1="-6.35" x2="0" y2="-6.35" width="0.508" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="3.048" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="3.02" y1="-5.08" x2="3.02" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.15" layer="94"/>
+<text x="0" y="-1.27" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<text x="0" y="-11.43" size="2.54" layer="95" align="top-left">1825970000</text>
+<pin name="A3" x="10.16" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WEIDMUELLER_1825970000" prefix="E">
+<description>Terminal_03_1x03_Single</description>
+<gates>
+<gate name="A" symbol="WEIDMUELLER_1825970000_0_0" x="0" y="0"/>
+<gate name="B" symbol="WEIDMUELLER_1825970000_0_1" x="25.08" y="0"/>
+<gate name="C" symbol="WEIDMUELLER_1825970000_0_2" x="50.16" y="0"/>
+</gates>
+<devices>
+<device name="WEIDMUELLER_1825970000_0_0" package="WEIDMUELLER_1825970000_0">
+<connects>
+<connect gate="A" pin="A1" pad="A1 A1-2"/>
+<connect gate="B" pin="A2" pad="A2 A2-2"/>
+<connect gate="C" pin="A3" pad="A3 A3-2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CIIVA_IDS" value="21164068"/>
+<attribute name="COLOUR" value="Black"/>
+<attribute name="COMPONENT_LINK_1_DESCRIPTION" value="Manufacturer URL"/>
+<attribute name="COMPONENT_LINK_1_URL" value="http://www.weidmueller.com/"/>
+<attribute name="COMPONENT_LINK_2_DESCRIPTION" value="URL Link1"/>
+<attribute name="COMPONENT_LINK_2_URL" value="http://catalog.weidmueller.com/catalog/Start.do?localeId=en&amp;ObjectID=1825970000"/>
+<attribute name="CONTACT_MATERIAL" value="Cu-Leg"/>
+<attribute name="CONTACT_SURFACE" value="tinned"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Manufacturer Recommended"/>
+<attribute name="IMPORTED" value="yes"/>
+<attribute name="IMPORTED_FROM" value="vault"/>
+<attribute name="IMPORT_TS" value="1521858898"/>
+<attribute name="INSULATING_MATERIAL" value="LCP GF"/>
+<attribute name="MF" value="Weidmueller"/>
+<attribute name="MOUNTING_ONTO_THE__PCB" value="Reflow solder connection"/>
+<attribute name="MPN" value="1825970000"/>
+<attribute name="NO_OF_POLES" value="3"/>
+<attribute name="PACKAGE" value="LSF_SMT_5_00_180_03"/>
+<attribute name="PACKAGING" value="Tube"/>
+<attribute name="PITCH_INCH" value="0,197 inch"/>
+<attribute name="PITCH_MM" value="5 mm"/>
+<attribute name="PREFIX" value="E"/>
+<attribute name="QTY" value="39 PCS"/>
+<attribute name="RATED_CURRENT_MIN_NO_OF_POLES__TU__20_DEG__C" value="19 A"/>
+<attribute name="RATED_CURRENT_USE_GROUP__B__UL__1059" value="12 A"/>
+<attribute name="RATED_VOLTAGE_FOR_SURGE_VOLTAGE_CLASS_POLLUTION_DEGREE__II__2" value="500 V"/>
+<attribute name="RATED_VOLTAGE_USE_GROUP__B__UL__1059" value="300 V"/>
+<attribute name="RELEASE_DATE" value="1441960214"/>
+<attribute name="REVISION" value="V1"/>
+<attribute name="SHORT_TEXT_FOR_MATERIAL" value="LSF-SMT 5.00/03/180 3.5SN BK TU"/>
+<attribute name="SIDE_TERMINATION_CHARACTERISTIC" value="closed side"/>
+<attribute name="SOLDER_PIN_LENGTH_MM" value="3,5 mm"/>
+<attribute name="SOLID_MAX__H_05__07__V__U" value="1,5 mm2"/>
+<attribute name="SOLID_MIN__H_05__07__V__U" value="0,2 mm2"/>
+<attribute name="UL__94_FLAMMABILITY_RATING" value="V-0"/>
+<attribute name="VAULT_GUID" value="03F9458B-A2E0-419D-AF66-8D59BC483EAA"/>
+<attribute name="VAULT_REVISION" value="F6AF1825-5669-4E81-89AF-BD44428CA1E3"/>
+<attribute name="WIRE_CROSS_SECTION__AWG_MAX__UL__1059" value="AWG 16"/>
+<attribute name="WIRE_CROSS_SECTION__AWG_MIN__UL__1059" value="AWG 24"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
